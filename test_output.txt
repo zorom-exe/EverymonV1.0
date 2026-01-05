@@ -1,0 +1,56 @@
+﻿--- STARTING ENGINE TEST ---
+Battle Started.
+--- TEAM PREVIEW ---
+
+--- TURN 1 ---
+P1 (Sparky) uses Ember.
+P2 (Splashy) uses Water Gun.
+P1 Choice Accepted: true
+P2 Choice Accepted: true
+|t:|1767550644
+|gametype|singles
+|player|p1|Player 1||
+|player|p2|Player 2||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Charmander, L50, F|
+|poke|p2|Squirtle, L50, F|
+|teampreview
+|
+|t:|1767550644
+|teamsize|p1|1
+|teamsize|p2|1
+|start
+|split|p1
+|switch|p1a: Sparky|Charmander, L50, F|146/146
+|switch|p1a: Sparky|Charmander, L50, F|146/146
+|split|p2
+|switch|p2a: Splashy|Squirtle, L50, F|151/151
+|switch|p2a: Splashy|Squirtle, L50, F|151/151
+|turn|1
+|
+|t:|1767550644
+|move|p1a: Sparky|Ember|p2a: Splashy
+LOG: Sparky used Ember
+|-resisted|p2a: Splashy
+LOG: It was Not Very Effective against Splashy!
+|split|p2
+|-damage|p2a: Splashy|139/151
+|-damage|p2a: Splashy|139/151
+|move|p2a: Splashy|Water Gun|p1a: Sparky
+LOG: Splashy used Water Gun
+|-supereffective|p1a: Sparky
+LOG: It was Super Effective against Sparky!
+|split|p1
+|-damage|p1a: Sparky|68/146
+|-damage|p1a: Sparky|68/146
+|
+|upkeep
+|turn|2
+
+--- RESULTS ---
+Γ£à Type Effectiveness Check 1: Fire -> Water is Resisted.
+Γ£à Type Effectiveness Check 2: Water -> Fire is Super Effective.
+
+Γ£à ENGINE VERIFICATION PASSED
