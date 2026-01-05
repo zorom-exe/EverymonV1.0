@@ -22,7 +22,7 @@ This workflow will guide you through pushing your local code to a new GitHub rep
 
 2.  **Create Repository on GitHub**
     - Go to [github.com/new](https://github.com/new).
-    - naming it `everymon-re-execution` (or your preferred name).
+    - naming it `EverymonV1.0`.
     - **Do not** initialize with README/gitignore (you already have them).
     - Click **Create repository**.
 
@@ -30,7 +30,7 @@ This workflow will guide you through pushing your local code to a new GitHub rep
     - Copy the commands under "…or push an existing repository from the command line".
     - They will look like this:
     ```bash
-    git remote add origin https://github.com/YOUR_USERNAME/everymon-re-execution.git
+    git remote add origin https://github.com/YOUR_USERNAME/EverymonV1.0.git
     git branch -M main
     git push -u origin main
     ```
